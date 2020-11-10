@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #!/bin/sh python
 import socket
 import subprocess
