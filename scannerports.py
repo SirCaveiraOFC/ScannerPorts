@@ -18,6 +18,6 @@ print('###############################')
 print('Coded BY: Sr.Caveira - (v1.0)\n')
 scan = int(input('Digite 1 para iniciar a Ferramenta de Scan: '))
 if(scan == 1):
-print('a')
+  print('a')
 else:
-print('b')
+  print('b')
