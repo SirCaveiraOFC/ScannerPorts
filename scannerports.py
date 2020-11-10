@@ -20,4 +20,4 @@ scan = int(input('Digite 1 para iniciar a Ferramenta de Scan: '))
 if(scan == 1):
     print('a')
 else:
-    print('Erro! Insira uma opção válida.')
+print('Erro! Insira uma opção válida.')
